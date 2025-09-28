@@ -1,0 +1,66 @@
+<resources>
+    <style name="AppTheme.Pink" parent="Theme.Material3.Dark.NoActionBar">
+        <item name="colorPrimary">@color/md_theme_primary_pink</item>
+        <item name="colorOnPrimary">@color/md_theme_onPrimary_pink</item>
+        <item name="colorPrimaryContainer">@color/md_theme_primaryContainer_pink</item>
+        <item name="colorOnPrimaryContainer">@color/md_theme_onPrimaryContainer_pink</item>
+        <item name="colorSecondary">@color/md_theme_secondary_pink</item>
+        <item name="colorOnSecondary">@color/md_theme_onSecondary_pink</item>
+        <item name="colorSecondaryContainer">@color/md_theme_secondaryContainer_pink</item>
+        <item name="colorOnSecondaryContainer">@color/md_theme_onSecondaryContainer_pink</item>
+        <item name="colorTertiary">@color/md_theme_tertiary_pink</item>
+        <item name="colorOnTertiary">@color/md_theme_onTertiary_pink</item>
+        <item name="colorTertiaryContainer">@color/md_theme_tertiaryContainer_pink</item>
+        <item name="colorOnTertiaryContainer">@color/md_theme_onTertiaryContainer_pink</item>
+        <item name="colorError">@color/md_theme_error_pink</item>
+        <item name="colorOnError">@color/md_theme_onError_pink</item>
+        <item name="colorErrorContainer">@color/md_theme_errorContainer_pink</item>
+        <item name="colorOnErrorContainer">@color/md_theme_onErrorContainer_pink</item>
+        <item name="android:colorBackground">@color/md_theme_background_pink</item>
+        <item name="colorOnBackground">@color/md_theme_onBackground_pink</item>
+        <item name="colorSurface">@color/md_theme_surface_pink</item>
+        <item name="colorOnSurface">@color/md_theme_onSurface_pink</item>
+        <item name="colorSurfaceVariant">@color/md_theme_surfaceVariant_pink</item>
+        <item name="colorOnSurfaceVariant">@color/md_theme_onSurfaceVariant_pink</item>
+        <item name="colorOutline">@color/md_theme_outline_pink</item>
+        <item name="colorOutlineVariant">@color/md_theme_outlineVariant_pink</item>
+        <item name="colorSurfaceInverse">@color/md_theme_inverseSurface_pink</item>
+        <item name="colorOnSurfaceInverse">@color/md_theme_inverseOnSurface_pink</item>
+        <item name="colorPrimaryInverse">@color/md_theme_inversePrimary_pink</item>
+        <item name="colorPrimaryFixed">@color/md_theme_primaryFixed_pink</item>
+        <item name="colorOnPrimaryFixed">@color/md_theme_onPrimaryFixed_pink</item>
+        <item name="colorPrimaryFixedDim">@color/md_theme_primaryFixedDim_pink</item>
+        <item name="colorOnPrimaryFixedVariant">@color/md_theme_onPrimaryFixedVariant_pink</item>
+        <item name="colorSecondaryFixed">@color/md_theme_secondaryFixed_pink</item>
+        <item name="colorOnSecondaryFixed">@color/md_theme_onSecondaryFixed_pink</item>
+        <item name="colorSecondaryFixedDim">@color/md_theme_secondaryFixedDim_pink</item>
+        <item name="colorOnSecondaryFixedVariant">@color/md_theme_onSecondaryFixedVariant_pink</item>
+        <item name="colorTertiaryFixed">@color/md_theme_tertiaryFixed_pink</item>
+        <item name="colorOnTertiaryFixed">@color/md_theme_onTertiaryFixed_pink</item>
+        <item name="colorTertiaryFixedDim">@color/md_theme_tertiaryFixedDim_pink</item>
+        <item name="colorOnTertiaryFixedVariant">@color/md_theme_onTertiaryFixedVariant_pink</item>
+        <item name="colorSurfaceDim">@color/md_theme_surfaceDim_pink</item>
+        <item name="colorSurfaceBright">@color/md_theme_surfaceBright_pink</item>
+        <item name="colorSurfaceContainerLowest">@color/md_theme_surfaceContainerLowest_pink</item>
+        <item name="colorSurfaceContainerLow">@color/md_theme_surfaceContainerLow_pink</item>
+        <item name="colorSurfaceContainer">@color/md_theme_surfaceContainer_pink</item>
+        <item name="colorSurfaceContainerHigh">@color/md_theme_surfaceContainerHigh_pink</item>
+        <item name="colorSurfaceContainerHighest">@color/md_theme_surfaceContainerHighest_pink</item>
+        
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:windowLightNavigationBar">false</item>
+        <item name="android:fontFamily">@font/varelaround_regular</item>
+        <item name="android:windowContentTransitions">true</item>
+        <item name="android:windowActivityTransitions">true</item>
+        <item name="android:windowAllowEnterTransitionOverlap">true</item>
+        <item name="android:windowAllowReturnTransitionOverlap">true</item>
+        <item name="android:windowSharedElementsUseOverlay">true</item>
+        
+        <item name="android:windowEnterTransition">@transition/slide_in_from_right</item>
+        <item name="android:windowExitTransition">@transition/exit_fade_slide_down</item>
+        <item name="android:windowReenterTransition">@transition/slide_in_from_left</item>
+        <item name="android:windowReturnTransition">@transition/return_fade_slide_down</item>
+    </style>
+</resources>

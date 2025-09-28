@@ -1,0 +1,369 @@
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical">
+	<ScrollView
+		android:id="@+id/vscroll1"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:fillViewport="true"
+		android:scrollbars="none">
+		<LinearLayout
+			android:id="@+id/linear1"
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:gravity="center_horizontal"
+			android:orientation="vertical">
+			<LinearLayout
+				android:id="@+id/linear2"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginTop="30dp"
+				android:padding="8dp"
+				android:orientation="horizontal">
+				<TextView
+					android:id="@+id/textview1"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:padding="8dp"
+					android:text="Solve security questions"
+					android:textSize="16sp"
+					android:textStyle="bold"
+					android:fontFamily="@font/varelaround_regular"
+					android:textColor="?attr/colorPrimary" />
+			</LinearLayout>
+			<com.google.android.material.card.MaterialCardView
+				android:id="@+id/important_note"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginLeft="20dp"
+				android:layout_marginTop="5dp"
+				android:layout_marginRight="20dp"
+				android:layout_marginBottom="5dp"
+				app:cardBackgroundColor="@android:color/transparent"
+				android:gravity="center_vertical"
+				android:orientation="horizontal"
+				app:strokeColor="?attr/colorPrimary"
+				android:layout_centerHorizontal="true">
+				<LinearLayout
+					android:id="@+id/linear65"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:orientation="horizontal">
+					<LinearLayout
+						android:id="@+id/linear64"
+						android:layout_width="wrap_content"
+						android:layout_height="match_parent"
+						android:padding="3dp"
+						android:gravity="center_vertical"
+						android:orientation="vertical">
+						<ImageView
+							android:id="@+id/imageview22"
+							android:layout_width="20dp"
+							android:layout_height="20dp"
+							android:layout_marginLeft="5dp"
+							android:layout_marginRight="2dp"
+							android:src="@drawable/icon_info_twotone"
+							android:scaleType="fitXY"
+							android:tint="?attr/colorPrimary" />
+					</LinearLayout>
+					<LinearLayout
+						android:id="@+id/linear63"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:orientation="vertical"
+						android:layout_gravity="right"
+						android:layout_weight="1">
+						<TextView
+							android:id="@+id/textview17"
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:paddingLeft="8dp"
+							android:paddingTop="4dp"
+							android:paddingRight="8dp"
+							android:text="Important Note"
+							android:textSize="16sp"
+							android:textColor="?attr/colorPrimary" />
+						<TextView
+							android:id="@+id/textview18"
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:layout_marginBottom="5dp"
+							android:paddingLeft="8dp"
+							android:paddingTop="3dp"
+							android:paddingRight="8dp"
+							android:paddingBottom="4dp"
+							android:text="If you enter the wrong master key more than three times, you will be required to provide extra security questions!"
+							android:textSize="14sp"
+							android:textColor="@color/greytext" />
+					</LinearLayout>
+				</LinearLayout>
+			</com.google.android.material.card.MaterialCardView>
+			<TextView
+				android:id="@+id/textview_title"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:padding="8dp"
+				android:text="Set security question"
+				android:textSize="14sp"
+				android:textColor="?attr/colorOnPrimaryContainer" />
+			<com.google.android.material.textfield.TextInputLayout
+				android:id="@+id/textinputlayout_password"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginLeft="15dp"
+				android:layout_marginRight="15dp"
+				android:layout_marginBottom="5dp"
+				style="@style/CustomTextInputLayout"
+				app:startIconDrawable="@drawable/icon_key"
+				app:endIconMode="password_toggle"
+				app:startIconTint="@color/blackwhite"
+				app:endIconTint="@color/blackwhite"
+				android:transitionName="shared_password">
+				<EditText
+					android:id="@+id/edittext_pass"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:padding="15dp"
+					android:textSize="14sp"
+					android:hint="Master Password"
+					android:textColorHint="#607D8B"
+					android:singleLine="true"
+					android:inputType="textPassword"
+					android:imeOptions="actionDone"
+					android:textColor="?attr/colorSecondary" />
+			</com.google.android.material.textfield.TextInputLayout>
+			<com.google.android.material.card.MaterialCardView
+				android:id="@+id/linear_password_checker"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginLeft="15dp"
+				android:layout_marginRight="15dp"
+				android:orientation="vertical">
+				<LinearLayout
+					android:id="@+id/linear70"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:padding="8dp"
+					android:orientation="vertical">
+					<LinearLayout
+						android:id="@+id/linear71"
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:gravity="center_vertical"
+						android:orientation="horizontal">
+						<ImageView
+							android:id="@+id/imageview_checker1"
+							android:layout_width="24dp"
+							android:layout_height="24dp"
+							android:src="@drawable/icon_close"
+							android:scaleType="fitXY"
+							android:tint="?attr/colorError" />
+						<TextView
+							android:id="@+id/textview_checker1"
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:padding="8dp"
+							android:text="Password must be more than 12 length"
+							android:textSize="14sp"
+							android:textColor="?attr/colorError" />
+					</LinearLayout>
+					<LinearLayout
+						android:id="@+id/linear72"
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:gravity="center_vertical"
+						android:orientation="horizontal">
+						<ImageView
+							android:id="@+id/imageview_checker2"
+							android:layout_width="24dp"
+							android:layout_height="24dp"
+							android:src="@drawable/icon_close"
+							android:scaleType="fitXY"
+							android:tint="?attr/colorError" />
+						<TextView
+							android:id="@+id/textview_checker2"
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:padding="8dp"
+							android:text="Password must contain symbol"
+							android:textSize="14sp"
+							android:textColor="?attr/colorError" />
+					</LinearLayout>
+					<LinearLayout
+						android:id="@+id/linear73"
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:gravity="center_vertical"
+						android:orientation="horizontal">
+						<ImageView
+							android:id="@+id/imageview_checker3"
+							android:layout_width="24dp"
+							android:layout_height="24dp"
+							android:src="@drawable/icon_close"
+							android:scaleType="fitXY"
+							android:tint="?attr/colorError" />
+						<TextView
+							android:id="@+id/textview_checker3"
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:padding="8dp"
+							android:text="Password must contain digit"
+							android:textSize="14sp"
+							android:textColor="?attr/colorError" />
+					</LinearLayout>
+					<LinearLayout
+						android:id="@+id/linear74"
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:gravity="center_vertical"
+						android:orientation="horizontal">
+						<ImageView
+							android:id="@+id/imageview_checker4"
+							android:layout_width="24dp"
+							android:layout_height="24dp"
+							android:src="@drawable/icon_close"
+							android:scaleType="fitXY"
+							android:tint="?attr/colorError" />
+						<TextView
+							android:id="@+id/textview_checker4"
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:padding="8dp"
+							android:text="Password must contain UpperCase"
+							android:textSize="14sp"
+							android:textColor="?attr/colorError" />
+					</LinearLayout>
+					<LinearLayout
+						android:id="@+id/linear75"
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:gravity="center_vertical"
+						android:orientation="horizontal">
+						<ImageView
+							android:id="@+id/imageview_checker5"
+							android:layout_width="24dp"
+							android:layout_height="24dp"
+							android:src="@drawable/icon_close"
+							android:scaleType="fitXY"
+							android:tint="?attr/colorError" />
+						<TextView
+							android:id="@+id/textview_checker5"
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:padding="8dp"
+							android:text="Password must contain LowerCase"
+							android:textSize="14sp"
+							android:textColor="?attr/colorError" />
+					</LinearLayout>
+					<LinearLayout
+						android:id="@+id/linear78"
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:gravity="center_vertical"
+						android:orientation="horizontal">
+						<ImageView
+							android:id="@+id/imageview_checker6"
+							android:layout_width="24dp"
+							android:layout_height="24dp"
+							android:src="@drawable/icon_close"
+							android:scaleType="fitXY"
+							android:tint="?attr/colorError" />
+						<TextView
+							android:id="@+id/textview_checker6"
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:padding="8dp"
+							android:text="Password must contain 6 unique characters"
+							android:textSize="14sp"
+							android:textColor="?attr/colorError" />
+					</LinearLayout>
+				</LinearLayout>
+			</com.google.android.material.card.MaterialCardView>
+			<com.google.android.material.textfield.TextInputLayout
+				android:id="@+id/textinputlayout_question"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginLeft="15dp"
+				android:layout_marginTop="10dp"
+				android:layout_marginRight="15dp"
+				style="@style/CustomTextInputLayout"
+				app:startIconDrawable="@drawable/icon_question_mark"
+				app:startIconTint="@color/blackwhite"
+				android:transitionName="shared_password">
+				<EditText
+					android:id="@+id/edittext_question"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:padding="15dp"
+					android:textSize="14sp"
+					android:hint="What is your favorite game\?"
+					android:textColorHint="#607D8B"
+					android:singleLine="true"
+					android:imeOptions="actionDone"
+					android:textColor="?attr/colorSecondary" />
+			</com.google.android.material.textfield.TextInputLayout>
+			<LinearLayout
+				android:id="@+id/linear68"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginLeft="15dp"
+				android:layout_marginTop="10dp"
+				android:layout_marginRight="15dp"
+				android:gravity="right"
+				android:orientation="horizontal">
+				<Button
+					android:id="@+id/button_fingerprint"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:paddingLeft="10dp"
+					android:paddingTop="8dp"
+					android:paddingRight="10dp"
+					android:paddingBottom="8dp"
+					android:text="Fingerprint to unlock"
+					android:textSize="12sp"
+					style="@style/Widget.Material3.Button.TextButton.Icon"
+					android:textColor="?attr/colorOnPrimaryContainer" />
+			</LinearLayout>
+			<LinearLayout
+				android:id="@+id/linear_button"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginLeft="15dp"
+				android:layout_marginTop="40dp"
+				android:layout_marginRight="15dp"
+				android:orientation="horizontal">
+				<Button
+					android:id="@+id/button_exit"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:padding="8dp"
+					android:text="Exit"
+					android:textSize="14sp"
+					style="?attr/materialButtonOutlinedStyle"
+					android:textColor="?attr/colorOnPrimaryContainer" />
+				<LinearLayout
+					android:id="@+id/linear67"
+					android:layout_width="match_parent"
+					android:layout_height="match_parent"
+					android:padding="8dp"
+					android:orientation="vertical"
+					android:layout_weight="1" />
+				<Button
+					android:id="@+id/button_enter"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:text="Enter"
+					android:textSize="14sp"
+					style="@style/Widget.Material3.Button.Icon"
+					app:icon="@drawable/icon_right_arrow"
+					app:iconGravity="end"
+					app:iconTint="?attr/colorOnSecondary"
+					android:textColor="?attr/colorOnSecondary" />
+			</LinearLayout>
+		</LinearLayout>
+	</ScrollView>
+</LinearLayout>

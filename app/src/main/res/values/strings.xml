@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Safino</string>
+    <string name="YouTubLink">https://youtube.com/@fastersoftwaredeveloper</string>
+    <string name="TelegraLink">https://t.me/fastersoftwaredeveloper</string>
+    <string name="GitHubLink">https://github.com/FasterSoftwareDeveloper/</string>
+</resources>

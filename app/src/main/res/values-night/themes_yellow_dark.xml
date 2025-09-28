@@ -1,0 +1,66 @@
+<resources>
+    <style name="AppTheme.Yellow" parent="Theme.Material3.Dark.NoActionBar">
+        <item name="colorPrimary">@color/md_yellow_theme_primary</item>
+        <item name="colorOnPrimary">@color/md_yellow_theme_onPrimary</item>
+        <item name="colorPrimaryContainer">@color/md_yellow_theme_primaryContainer</item>
+        <item name="colorOnPrimaryContainer">@color/md_yellow_theme_onPrimaryContainer</item>
+        <item name="colorSecondary">@color/md_yellow_theme_secondary</item>
+        <item name="colorOnSecondary">@color/md_yellow_theme_onSecondary</item>
+        <item name="colorSecondaryContainer">@color/md_yellow_theme_secondaryContainer</item>
+        <item name="colorOnSecondaryContainer">@color/md_yellow_theme_onSecondaryContainer</item>
+        <item name="colorTertiary">@color/md_yellow_theme_tertiary</item>
+        <item name="colorOnTertiary">@color/md_yellow_theme_onTertiary</item>
+        <item name="colorTertiaryContainer">@color/md_yellow_theme_tertiaryContainer</item>
+        <item name="colorOnTertiaryContainer">@color/md_yellow_theme_onTertiaryContainer</item>
+        <item name="colorError">@color/md_yellow_theme_error</item>
+        <item name="colorOnError">@color/md_yellow_theme_onError</item>
+        <item name="colorErrorContainer">@color/md_yellow_theme_errorContainer</item>
+        <item name="colorOnErrorContainer">@color/md_yellow_theme_onErrorContainer</item>
+        <item name="android:colorBackground">@color/md_yellow_theme_background</item>
+        <item name="colorOnBackground">@color/md_yellow_theme_onBackground</item>
+        <item name="colorSurface">@color/md_yellow_theme_surface</item>
+        <item name="colorOnSurface">@color/md_yellow_theme_onSurface</item>
+        <item name="colorSurfaceVariant">@color/md_yellow_theme_surfaceVariant</item>
+        <item name="colorOnSurfaceVariant">@color/md_yellow_theme_onSurfaceVariant</item>
+        <item name="colorOutline">@color/md_yellow_theme_outline</item>
+        <item name="colorOutlineVariant">@color/md_yellow_theme_outlineVariant</item>
+        <item name="colorSurfaceInverse">@color/md_yellow_theme_inverseSurface</item>
+        <item name="colorOnSurfaceInverse">@color/md_yellow_theme_inverseOnSurface</item>
+        <item name="colorPrimaryInverse">@color/md_yellow_theme_inversePrimary</item>
+        <item name="colorPrimaryFixed">@color/md_yellow_theme_primaryFixed</item>
+        <item name="colorOnPrimaryFixed">@color/md_yellow_theme_onPrimaryFixed</item>
+        <item name="colorPrimaryFixedDim">@color/md_yellow_theme_primaryFixedDim</item>
+        <item name="colorOnPrimaryFixedVariant">@color/md_yellow_theme_onPrimaryFixedVariant</item>
+        <item name="colorSecondaryFixed">@color/md_yellow_theme_secondaryFixed</item>
+        <item name="colorOnSecondaryFixed">@color/md_yellow_theme_onSecondaryFixed</item>
+        <item name="colorSecondaryFixedDim">@color/md_yellow_theme_secondaryFixedDim</item>
+        <item name="colorOnSecondaryFixedVariant">@color/md_yellow_theme_onSecondaryFixedVariant</item>
+        <item name="colorTertiaryFixed">@color/md_yellow_theme_tertiaryFixed</item>
+        <item name="colorOnTertiaryFixed">@color/md_yellow_theme_onTertiaryFixed</item>
+        <item name="colorTertiaryFixedDim">@color/md_yellow_theme_tertiaryFixedDim</item>
+        <item name="colorOnTertiaryFixedVariant">@color/md_yellow_theme_onTertiaryFixedVariant</item>
+        <item name="colorSurfaceDim">@color/md_yellow_theme_surfaceDim</item>
+        <item name="colorSurfaceBright">@color/md_yellow_theme_surfaceBright</item>
+        <item name="colorSurfaceContainerLowest">@color/md_yellow_theme_surfaceContainerLowest</item>
+        <item name="colorSurfaceContainerLow">@color/md_yellow_theme_surfaceContainerLow</item>
+        <item name="colorSurfaceContainer">@color/md_yellow_theme_surfaceContainer</item>
+        <item name="colorSurfaceContainerHigh">@color/md_yellow_theme_surfaceContainerHigh</item>
+        <item name="colorSurfaceContainerHighest">@color/md_yellow_theme_surfaceContainerHighest</item>
+        
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:windowLightNavigationBar">false</item>
+        <item name="android:fontFamily">@font/varelaround_regular</item>
+        <item name="android:windowContentTransitions">true</item>
+        <item name="android:windowActivityTransitions">true</item>
+        <item name="android:windowAllowEnterTransitionOverlap">true</item>
+        <item name="android:windowAllowReturnTransitionOverlap">true</item>
+        <item name="android:windowSharedElementsUseOverlay">true</item>
+        
+        <item name="android:windowEnterTransition">@transition/slide_in_from_right</item>
+        <item name="android:windowExitTransition">@transition/exit_fade_slide_down</item>
+        <item name="android:windowReenterTransition">@transition/slide_in_from_left</item>
+        <item name="android:windowReturnTransition">@transition/return_fade_slide_down</item>
+    </style>
+</resources>
